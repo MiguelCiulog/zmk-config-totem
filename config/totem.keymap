@@ -40,8 +40,8 @@
             require-prior-idle-ms = <100>;
         };
 
-        enter_combo {
-            bindings = <&kp ENTER>;
+        space {
+            bindings = <&kp SPACE>;
             key-positions = <13 12 11>;
             timeout-ms = <70>;
             require-prior-idle-ms = <100>;
