@@ -33,20 +33,6 @@
             require-prior-idle-ms = <120>;
         };
 
-        grave_combo {
-            bindings = <&kp GRAVE>;
-            key-positions = <0 20>;
-            timeout-ms = <60>;
-            require-prior-idle-ms = <100>;
-        };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <13 12 11>;
-            timeout-ms = <70>;
-            require-prior-idle-ms = <100>;
-        };
-
         enter_right_combo {
             bindings = <&kp ENTER>;
             key-positions = <16 18 17>;
@@ -66,30 +52,9 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 2 3>;
+            key-positions = <1 2 3 0>;
             timeout-ms = <60>;
             require-prior-idle-ms = <120>;
-        };
-
-        pipe {
-            bindings = <&kp NON_US_BACKSLASH>;
-            key-positions = <9 31>;
-            timeout-ms = <60>;
-            require-prior-idle-ms = <100>;
-        };
-
-        another-tab {
-            bindings = <&kp TAB>;
-            key-positions = <1 0>;
-            timeout-ms = <60>;
-            require-prior-idle-ms = <120>;
-        };
-
-        apostrophe {
-            bindings = <&kp SQT>;
-            key-positions = <19 18>;
-            timeout-ms = <60>;
-            require-prior-idle-ms = <100>;
         };
     };
 
