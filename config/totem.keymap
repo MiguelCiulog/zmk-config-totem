@@ -71,16 +71,6 @@
             require-prior-idle-ms = <120>;
         };
 
-        another-backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
-        };
-
-        another-del {
-            bindings = <&kp DEL>;
-            key-positions = <9 8 7>;
-        };
-
         pipe {
             bindings = <&kp NON_US_BACKSLASH>;
             key-positions = <9 31>;
