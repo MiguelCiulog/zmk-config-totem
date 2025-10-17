@@ -28,7 +28,7 @@
 
         combo_esc {
             timeout-ms = <60>;
-            key-positions = <1 2>;
+            key-positions = <1 0>;
             bindings = <&kp TAB>;
             require-prior-idle-ms = <120>;
         };
@@ -45,7 +45,7 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 0>;
+            key-positions = <1 0 2>;
             timeout-ms = <60>;
             require-prior-idle-ms = <120>;
         };
