@@ -27,7 +27,7 @@
         compatible = "zmk,combos";
 
         tab {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <1 2>;
             bindings = <&kp TAB>;
             layers = <0>;
@@ -48,14 +48,12 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
-            timeout-ms = <50>;
-            layers = <0>;
+            timeout-ms = <30>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
-            layers = <0>;
             timeout-ms = <30>;
         };
     };
